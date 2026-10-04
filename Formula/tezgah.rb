@@ -7,8 +7,8 @@ class Tezgah < Formula
   depends_on "python@3.10"
 
   def install
-    bin.install "bin/tezgah-setup"
     libexec.install Dir["*"]
+    bin.install_symlink libexec/"bin/tezgah-setup"
   end
 
   test do
