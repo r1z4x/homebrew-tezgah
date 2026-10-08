@@ -1,8 +1,8 @@
 class Tezgah < Formula
   desc "One shared working contract for every AI coding assistant you run"
   homepage "https://github.com/r1z4x/tezgah"
-  url "https://github.com/r1z4x/tezgah/releases/download/v1.3.0/tezgah-1.3.0.tar.gz"
-  sha256 "a6a9cf8631a636b4078d52f002b68eb1c29d1de22c7f90d70f9b38e7de716647"
+  url "https://github.com/r1z4x/tezgah/releases/download/v1.4.0/tezgah-1.4.0.tar.gz"
+  sha256 "fc9d36e8bf6e2f587e4b642082317e493efa852b747abb08b3222dd3d1254645"
   license "MIT"
   depends_on "python@3.10"
 
