@@ -7,7 +7,7 @@ class Tezgah < Formula
   # Accept plus a bearer. Homebrew exempts HOMEBREW_GITHUB_API_TOKEN from
   # the environment it clears before reading a formula, so the reference
   # below resolves at evaluation; brew redacts the value from what it logs.
-  url "https://api.github.com/repos/r1z4x/tezgah/releases/assets/649012551",
+  url "https://api.github.com/repos/r1z4x/tezgah/releases/assets/649026656",
       using: CurlDownloadStrategy,
       headers: [
         "Accept: application/octet-stream",
